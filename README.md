@@ -6,7 +6,7 @@
    - R code (.R, includes the dataset)
 
 ## Final assignment report ##
-1. Research question 					                  emsp*page 1*
+1. Research question 					                  &emsp;&emsp;&emsp;*page 1*
 
 2. Introduction dataset 				                  -*page 1*
    - Table 1 - Descriptive statistics 			         -*page 1*
