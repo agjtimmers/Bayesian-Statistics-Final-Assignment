@@ -1,4 +1,4 @@
-## Contents of the zip file ##
+## Contents of the repository ##
    - README (.txt, you are here)
    - Final assignment report (.pdf)
    - R code (.R, includes the dataset)
