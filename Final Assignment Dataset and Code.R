@@ -5,7 +5,7 @@
 
 ### PREPARATION ###
 #load the libraries
-lapply(c("mlbench", "psych", "ggplot2", "cowplot", "reshape2", "bain", "BayesFactor"), require, character.only = TRUE)
+lapply(c("mlbench", "psych", "ggplot2", "cowplot", "reshape2", "bain", "BayesFactor"), library, character.only = TRUE)
 #and the dataset
 data("BostonHousing")
 
