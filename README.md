@@ -6,15 +6,15 @@
    - R code (.R, includes the dataset)
 
 ## Final assignment report ##
-1. Research question 					                  page 1
+1. Research question 					                  -*page 1*
 
-2. Introduction dataset 				                  page 1
-   - Table 1 - Descriptive statistics 			         page 1
-   - Table 2 - Bivariate associations 			         page 1
+2. Introduction dataset 				                  -*page 1*
+   - Table 1 - Descriptive statistics 			         -*page 1*
+   - Table 2 - Bivariate associations 			         -*page 1*
 
-3. Estimation						                        page 2
-   - Gibbs sampler					                     page 2
-   - The Metropolis-Hastings algorithm			         page 2
+3. Estimation						                        -*page 2*
+   - Gibbs sampler					                     -*page 2*
+   - The Metropolis-Hastings algorithm			         -*page 2*
 
 4. Convergence						                        page 2 - 3
 
@@ -36,8 +36,8 @@
 
 ## BostonHousing dataset ##
 This dataset contains 506 cases and 14 variables, of which 3 were used:
-   - medv: the median value of the housing prices in the census tracts in the Boston Standard Metropolitan Statistical Area in 1970
-   - rm: the average number of rooms per house in the tracts
+   - medv: the median value of the housing prices in the census tracts in the Boston Standard Metropolitan Statistical Area in 1970.
+   - rm: the average number of rooms per house in the tracts.
    - lstat: the percentage of the population of the tracts that is of a lower socioeconomic status
 The dataset can be found in R and is loaded in the attached R Code (see below). 
 
