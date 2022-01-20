@@ -34,9 +34,9 @@
 
 ## BostonHousing dataset ##
 This dataset contains 506 cases and 14 variables, of which 3 were used:
-   - medv: the median value of the housing prices in the census tracts in the Boston Standard Metropolitan Statistical Area in 1970
-   - rm: the average number of rooms per house in the tracts
-   - lstat: the percentage of the population of the tracts that is of a lower socioeconomic status
+   - medv: the median value of the housing prices in the census tracts in the Boston Standard Metropolitan Statistical Area in 1970.
+   - rm: the average number of rooms per house in the tracts.
+   - lstat: the percentage of the population of the tracts that is of a lower socioeconomic status.
 The dataset can be found in R and is loaded in the attached R Code (see below). 
 
 ## R Code ##
