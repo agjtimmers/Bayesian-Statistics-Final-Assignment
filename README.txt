@@ -1,7 +1,14 @@
+## Bayesian-Statistics-Final-Assignment ##
+
+This repository contains the files for the final assignment of the course Bayesian Statistics at Utrecht Univesity. To get the same results as in the Final Assignment Report file, download this repository and run the R code in the Final Assignment Dataset and Code file (which makes use of the functions in the Functions folder). This repository also serves as a research archive for the course Markup Languages at Utrecht Univesity.
+
 ## Contents of the repository ##
    - README (.txt, you are here)
    - Final assignment report (.pdf)
-   - R code (.R, includes the dataset)
+   - Final Assignment Dataset and Code (.R, includes the dataset)
+   - Gibbs_withMH (.R, in Functions folder)
+   - Convergence_Diagnostics (.R, in Functions folder)
+   - Posterior_Predictive_Check (.R, in Functions folder)
 
 ## Final assignment report ##
 1. Research question 					page 1
