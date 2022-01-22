@@ -1,4 +1,7 @@
-### POSTERIOR PREDICTIVE CHECK ###
+################################
+## Posterior Predictive Check ##
+################################
+
 #function to compute mode, used in the function below
 mode <- function(x) {
   uniqx <- unique(x)
