@@ -1,7 +1,14 @@
+## Bayesian-Statistics-Final-Assignment ##
+
+This repository contains the files for the final assignment of the course Bayesian Statistics at Utrecht Univesity. To get the same results as in the Final Assignment Report file, download this repository and run the R code in the Final Assignment Dataset and Code file (which makes use of the functions in the Functions folder). This repository also serves as a research archive for the course Markup Languages at Utrecht Univesity.
+
 ## Contents of the repository ##
    - README (.txt, you are here)
    - Final assignment report (.pdf)
-   - R code (.R, includes the dataset)
+   - Final Assignment Dataset and Code (.R, includes the dataset)
+   - Gibbs_withMH (.R, in Functions folder)
+   - Convergence_Diagnostics (.R, in Functions folder)
+   - Posterior_Predictive_Check (.R, in Functions folder)
 
 ## Final assignment report ##
 1. Research question 					page 1
@@ -49,40 +56,40 @@ The dataset can be found in R and is loaded in the attached R Code (see below).
    - Table 2 - Bivariate associations			line 17
 
 3. Estimation						
-   - Function with vague priors in default		lines 21 - 110
-   - Preparation input					lines 114 - 120
-     - Center variables					lines 114 and 115
-     - Assign input function				lines 117 - 120
-   - Run two chains					lines 123 - 130
-   - Calculate acceptance ratios 			lines 133 - 135
-   - Preparation convergence plots and results		lines 139 - 147
+   - Function with vague priors in default		Gibbs_withMH.R
+   - Preparation input					lines 25 - 31
+     - Center variables					lines 25 and 26
+     - Assign input function				lines 28 - 31
+   - Run two chains					lines 34 - 41
+   - Calculate acceptance ratios 			lines 44 - 46
+   - Preparation convergence plots and results		lines 50 - 58
 
-4. Convergence						
-   - Trace plots					lines 164 - 189
-   - Autocorrelation plots				lines 193 - 236
-   - Trace and autocorrelation plots in one figure 	lines 239 and 240
-   - Density plots					lines 244 - 269
-   - Running mean plots					lines 273 - 311
-   - Density and running mean plots in one figure	lines 314 and 315
-   - Gelman-Rubin statistics				lines 318 - 323
-   - MC errors						lines 326 - 329 
+4. Convergence
+   - Trace plots					lines 78 - 103
+   - Autocorrelation plots				lines 108 - 141
+   - Trace and autocorrelation plots in one figure 	lines 144 and 145
+   - Density plots					lines 149 - 174
+   - Running mean plots					lines 179 - 208
+   - Density and running mean plots in one figure	lines 211 and 212
+   - Gelman-Rubin statistics				lines 215 - 220
+   - MC errors						lines 224 - 227 
 
 5. Interpretation of estimates and intervals		
-   - Table 3 - Results Model 1				lines 151 - 159
+   - Table 3 - Results Model 1				lines 62 - 70
 
-6. Bayes Factor I					lines 407 - 419	
+6. Bayes Factor I					lines 290 - 302	
 
-7. Posterior predictive check 				lines 333 - 350	
+7. Posterior predictive check 				lines 231 - 233	
 
 8. Model comparison with the DIC			
-  - Run competing model					lines 354 - 368
-  - Table 4 - Results Model 2				lines 371 - 379
-  - DIC Model 1						lines 382 - 391
-  - DIC Model 2						lines 394 - 403
+  - Run competing model					lines 237 - 251
+  - Table 4 - Results Model 2				lines 254 - 261
+  - DIC Model 1						lines 265 - 274
+  - DIC Model 2						lines 277 - 286
 
-9. Bayes Factor II					lines 422 - 424		
+9. Bayes Factor II					lines 305 - 307		
 
 10. Comparison of frequentist and Bayesian approaches
-   - Referenced ML estimates				line 409 
-   - Referenced small sensitivity analysis		lines 429 - 490
+   - Referenced ML estimates				line 292
+   - Referenced small sensitivity analysis		lines 312 - 373
 
