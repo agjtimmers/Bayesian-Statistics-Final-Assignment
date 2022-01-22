@@ -1,14 +1,24 @@
 ## Bayesian-Statistics-Final-Assignment ##
 
-This repository contains the files for the final assignment of the course Bayesian Statistics at Utrecht Univesity. To get the same results as in the Final Assignment Report file, download this repository and run the R code in the Final Assignment Dataset and Code file (which makes use of the functions in the Functions folder). This repository also serves as a research archive for the course Markup Languages at Utrecht Univesity.
+This repository contains the files for the final assignment of the course Bayesian Statistics at Utrecht Univesity. To get the same results as in the Final Assignment Report file, download this repository and run the R code in the R files in the order in which they are numbered (which makes use of the functions in the Functions folder). This repository also serves as a research archive for the course Markup Languages at Utrecht Univesity.
 
 ## Contents of the repository ##
    - README (.txt, you are here)
    - Final assignment report (.pdf)
-   - Final Assignment Dataset and Code (.R, includes the dataset)
-   - Gibbs_withMH (.R, in Functions folder)
-   - Convergence_Diagnostics (.R, in Functions folder)
-   - Posterior_Predictive_Check (.R, in Functions folder)
+   - 01 Introduction dataset (.R, includes the dataset)
+   - 02 Estimation (.R
+   - 03 Convergence (.R)
+   - 04 Interpretation of estimates and intervals (.R)
+   - 05 Bayes Factor I (.R)
+   - 06 Posterior predictive check (.R)
+   - 07 Model comparison with the DIC (.R)
+   - 08 Bayes Factor II (.R)
+   - 09 Comparison of frequentist and Bayesian approaches (.R)
+   - Workspaces folder with saved workspaces of all the above R files (01 - 09)
+   - Functions folder:
+      - Gibbs_withMH (.R)
+      - Convergence_Diagnostics (.R)
+      - Posterior_Predictive_Check (.R)
 
 ## Final assignment report ##
 1. Research question 					page 1
@@ -47,49 +57,41 @@ This dataset contains 506 cases and 14 variables, of which 3 were used:
 The dataset can be found in R and is loaded in the attached R Code (see below). 
 
 ## R Code ##
-1. Preparation
-   - Load libraries 					line 8
-   - Load dataset 					line 10
+01 Introduction dataset 
+   - Table 1 - Descriptive statistics 			line 12
+   - Table 2 - Bivariate associations			line 15
 
-2. Introduction dataset 
-   - Table 1 - Descriptive statistics 			line 14
-   - Table 2 - Bivariate associations			line 17
-
-3. Estimation						
+02 Estimation						
    - Function with vague priors in default		Gibbs_withMH.R
-   - Preparation input					lines 25 - 31
-     - Center variables					lines 25 and 26
-     - Assign input function				lines 28 - 31
-   - Run two chains					lines 34 - 41
-   - Calculate acceptance ratios 			lines 44 - 46
-   - Preparation convergence plots and results		lines 50 - 58
+   - Preparation input					lines 13 - 19
+     - Center variables					lines 13 and 14
+     - Assign input function				lines 16 - 19
+   - Run two chains					lines 22 - 29
+   - Calculate acceptance ratios 			lines 32 - 34
+   - Preparation convergence plots and results		lines 38 - 46
 
-4. Convergence
-   - Trace plots					lines 78 - 103
-   - Autocorrelation plots				lines 108 - 141
-   - Trace and autocorrelation plots in one figure 	lines 144 and 145
-   - Density plots					lines 149 - 174
-   - Running mean plots					lines 179 - 208
-   - Density and running mean plots in one figure	lines 211 and 212
-   - Gelman-Rubin statistics				lines 215 - 220
-   - MC errors						lines 224 - 227 
+03 Convergence
+   - Trace plots					lines 13 - 38
+   - Autocorrelation plots				lines 43 - 76
+   - Density plots					lines 80 - 105
+   - Running mean plots					lines 110 - 139
+   - Gelman-Rubin statistics				lines 142 - 147
+   - MC errors						lines 151 - 154 
 
-5. Interpretation of estimates and intervals		
-   - Table 3 - Results Model 1				lines 62 - 70
+04 Interpretation of estimates and intervals		
+   - Table 3 - Results Model 1				
 
-6. Bayes Factor I					lines 290 - 302	
+05 Bayes Factor I						
 
-7. Posterior predictive check 				lines 231 - 233	
+06 Posterior predictive check 					
 
-8. Model comparison with the DIC			
-  - Run competing model					lines 237 - 251
-  - Table 4 - Results Model 2				lines 254 - 261
-  - DIC Model 1						lines 265 - 274
-  - DIC Model 2						lines 277 - 286
+07 Model comparison with the DIC			
+  - Run competing model					lines 9 - 23
+  - Table 4 - Results Model 2				lines 26 - 34
+  - DIC Model 1						lines 37 - 46
+  - DIC Model 2						lines 49 - 58
 
-9. Bayes Factor II					lines 305 - 307		
+08 Bayes Factor II							
 
-10. Comparison of frequentist and Bayesian approaches
-   - Referenced ML estimates				line 292
-   - Referenced small sensitivity analysis		lines 312 - 373
+09 Comparison of frequentist and Bayesian approaches
 
