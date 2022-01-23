@@ -2,7 +2,7 @@
 ## Gibbs sampler with Metropolis-Hastings step ##
 #################################################
 
-
+## Function Gibbs sampler with Metropolis-Hastings step ##
 Gibbs_withMH <- function(Y, X1, X2, X3, n, n.iters = 10000, burnin = 1000, #iterations and burn-in in default
                          mu0 = 0.001, s20 = 1000, #set all hyperparameters already vague as default
                          mu1 = 0.001, s21 = 1000, df = 1,
